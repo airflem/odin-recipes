@@ -1,0 +1,17 @@
+/* Define the regular variable font */
+@font-face {
+    font-family: 'Raleway';
+    src: url('/font/Raleway-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900; /* Variable font weight range */
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Define the italic variable font */
+@font-face {
+    font-family: 'Raleway';
+    src: url('/font/Raleway-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900; /* Variable font weight range */
+    font-style: italic;
+    font-display: swap;
+}
