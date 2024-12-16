@@ -1,3 +1,6 @@
+/* Example using Normalize.css */
+@import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
+
 /* Define the regular variable font */
 @font-face {
     font-family: 'Raleway';
@@ -35,4 +38,9 @@ h3 {
     overflow-wrap: anywhere; /* Allow wrapping anywhere between words */
     word-break: keep-all; /* Prevent breaking words */
     line-height: 1.4;
+}
+
+body {
+    -webkit-font-smoothing: antialiased; /* Lighter font rendering */
+    -moz-osx-font-smoothing: grayscale; /* For Firefox on macOS */
 }
