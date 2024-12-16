@@ -18,19 +18,19 @@
 
 h1 {
     font-family: 'Raleway', sans-serif;
-    font-weight: bold; /* Equivalent to 700 */
+    font-weight: 700; /* Equivalent to bold */
     background-color: silver;
     text-align: center;
 }
 
 h3 {
     font-family: 'Raleway', sans-serif;
-    font-weight: medium; /* Equivalent to 500 */
+    font-weight: 500; /* Equivalent to medium */
 }
 
 * {
     font-family: 'Raleway', sans-serif;
-    font-weight: normal; /* Equivalent to 400 */
+    font-weight: 400; /* Equivalent to normal */
     max-width: 74ch; /* Limit the line width to 74 characters */
     overflow-wrap: anywhere; /* Allow wrapping anywhere between words */
     word-break: keep-all; /* Prevent breaking words */
