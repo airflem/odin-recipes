@@ -19,6 +19,16 @@
     font-display: swap;
 }
 
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: 700; /* Equivalent to bold */
@@ -43,4 +53,5 @@ h3 {
 body {
     -webkit-font-smoothing: antialiased; /* Lighter font rendering */
     -moz-osx-font-smoothing: grayscale; /* For Firefox on macOS */
+    margin: 30px;
 }
